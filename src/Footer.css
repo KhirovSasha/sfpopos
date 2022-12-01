@@ -1,0 +1,8 @@
+.Footer{
+    width: 100%;
+    justify-content: right;
+    background-color: rgb(192, 45, 26);
+    color: #fff;
+    padding: 1em;
+    margin-top: 2em;
+}
