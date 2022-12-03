@@ -1,0 +1,56 @@
+[
+    {
+        "name": "50 California Street",
+        "address": "50 California St.",
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/50_California_Street%2C_San_Francisco.jpg/2448px-50_California_Street%2C_San_Francisco.jpg"
+        ],
+        "likes": 12,
+        "hours": "09:00-12:00"
+    },
+    {
+        "name": "100 Pine Street",
+        "address": "100 Pine St.",
+        "images":[
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/100_Pine_Center.jpg/1200px-100_Pine_Center.jpg"
+        ],
+        "likes": 5,
+        "hours": "09:00-21:00"
+    },
+    {
+        "name": "101 California Street",
+        "address": "101 California",
+        "images":[
+            "https://101california.com/sites/default/files/home_left.jpg"
+        ],
+        "likes": 45,
+        "hours": "09:00-19:00"
+    },
+    {
+        "name": "343 Sansome Roof Garden",
+        "address": "343 Sansome St.",
+        "images":[
+            "https://www.therooftopguide.com/rooftop-bars-in-san-francisco/Bilder/343-sansome-roof-deck-600-1.jpg"
+        ],
+        "likes": 8,
+        "hours": "05:00-16:00"
+    },
+    {
+        "name": "525 Market Street Plaza",
+        "address": "525 Market St.",
+        "images":[
+            "https://images.squarespace-cdn.com/content/v1/55e77066e4b0ef23d8d3fdad/1516232191030-6PSMBSS8KQSGLOI7XI14/064015_010small.jpg"
+        ],
+        "likes": 6,
+        "hours": "09:00-17:00"
+    },
+    {
+        "name": "Citigroup Center",
+        "address": "1 Sansome St.",
+        "images":[
+            "https://images.adsttc.com/media/images/5445/fab6/e58e/cefb/6000/00a2/newsletter/Paulkhor.jpg?1413872306"
+        ],
+        "likes": 100,
+        "hours": "07:00-20:00"
+    }
+]
