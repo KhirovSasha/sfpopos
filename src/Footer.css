@@ -1,8 +1,10 @@
 .Footer{
+    left: 0;
+    bottom: 0;
     width: 100%;
-    justify-content: right;
-    background-color: rgb(192, 45, 26);
+    text-align: center;
     color: #fff;
-    padding: 1em;
-    margin-top: 2em;
+    padding: 1rem;
+    background-color: rgb(192, 45, 26);
+    margin-top: .5em;
 }

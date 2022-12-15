@@ -1,4 +1,4 @@
-.POPOSSpace {
+  .POPOSSpace {
     width: 100%;
     text-align: center;
   }
@@ -17,4 +17,9 @@
   .hours {
     font-style: initial;
     font-size: 1.2rem;
+  }
+
+  .POPOSSpace > h1 > a{
+    text-decoration: none; 
+    color: black;
   }

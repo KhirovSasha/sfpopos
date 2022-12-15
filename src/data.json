@@ -6,7 +6,13 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/50_California_Street%2C_San_Francisco.jpg/2448px-50_California_Street%2C_San_Francisco.jpg"
         ],
         "likes": 12,
-        "hours": "09:00-12:00"
+        "hours": "09:00-12:00",
+        "desc" : "50 California Street (also known as the Union Bank Building) is a 148 m (486 ft), 37-story office tower completed in 1972 at the foot of California Street in the Financial District of San Francisco, California. There is a plaza located at the base of the building.",
+        "features": "WC, Helicopter Pad",
+        "geo": {
+            "lat": "37.7940°N",
+            "lon": "122.3974°W"
+        }
     },
     {
         "name": "100 Pine Street",
@@ -15,7 +21,13 @@
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/100_Pine_Center.jpg/1200px-100_Pine_Center.jpg"
         ],
         "likes": 5,
-        "hours": "09:00-21:00"
+        "hours": "09:00-21:00",
+        "desc":  "100 Pine Center is a class-A office building at the northwest corner of Pine Street and Front Street in San Francisco's Financial District. The building is 145 m (476 ft) with 33 floors, and 402,500 sq ft (37,000 m2) of rentable office space, a 150-car garage including 30 valet parking spaces.",
+        "features": "Business Center",
+        "geo": {
+            "lat": "37.7926°N",
+            "lon": "122.3989°W"
+        }
     },
     {
         "name": "101 California Street",
@@ -24,7 +36,13 @@
             "https://101california.com/sites/default/files/home_left.jpg"
         ],
         "likes": 45,
-        "hours": "09:00-19:00"
+        "hours": "09:00-19:00",
+        "desc": "101 California is recognized as a San Francisco landmark that enlivens the city skyline. Its timeless, modern design encompasses a 1,250,000 square foot cylindrical tower of 48 stories atop one of San Francisco's most coveted plazas.",
+        "features": "Hospital, WC",
+        "geo": {
+            "lat": "37° 59' 9.8736 N",
+            "lon": "122° 32' 5.1072 W"
+        }
     },
     {
         "name": "343 Sansome Roof Garden",
@@ -33,7 +51,13 @@
             "https://www.therooftopguide.com/rooftop-bars-in-san-francisco/Bilder/343-sansome-roof-deck-600-1.jpg"
         ],
         "likes": 8,
-        "hours": "05:00-16:00"
+        "hours": "05:00-16:00",
+        "desc": "343 Sansome Rooftop Deck is not really a rooftop bar, but a public terrace where you can bring your own food and drinks and enjoy under the San Francisco sun. Located in the middle of the financial district, 343 Sansome terrace offers a nice view among the city's skyscrapers and main business district.",
+        "features": "Parking, Business Center",
+        "geo": {
+            "lat": "37.7936°N",
+            "lon": "-122.4016°W"
+        }
     },
     {
         "name": "525 Market Street Plaza",
@@ -42,7 +66,13 @@
             "https://images.squarespace-cdn.com/content/v1/55e77066e4b0ef23d8d3fdad/1516232191030-6PSMBSS8KQSGLOI7XI14/064015_010small.jpg"
         ],
         "likes": 6,
-        "hours": "09:00-17:00"
+        "hours": "09:00-17:00",
+        "desc": "525 Market Street is tied as the 26th tallest building in the Bay Area planned or built. The structure has a 529-foot pinnacle above SoMa, contributing over a million square feet of office space to San Francisco's central business district. John Carl Warnecke is the architect.",
+        "features": "WC, Parking",
+        "geo": {
+            "lat": "37.7905°N",
+            "lon": "122.3991°W"
+        }
     },
     {
         "name": "Citigroup Center",
@@ -51,6 +81,12 @@
             "https://images.adsttc.com/media/images/5445/fab6/e58e/cefb/6000/00a2/newsletter/Paulkhor.jpg?1413872306"
         ],
         "likes": 100,
-        "hours": "07:00-20:00"
+        "hours": "07:00-20:00",
+        "desc": "The Citigroup Center is 59 stories high, with its roof about 915 ft (279 m) above ground level. Excluding unused floor numbers at the base, it contains 46 office stories. At the time of completion, Citicorp Center was the seventh-tallest building in the world.",
+        "features": "Business Center, Children Hub",
+        "geo": {
+            "lat": "40°45′31″N",
+            "lon": "73°58′13″W"
+        }
     }
 ]

@@ -3,20 +3,22 @@ import POPOSSpace from "./POPOSSpace";
 import './POPOSList.css';
 import data from './data.json'
 
+
 function POPOSList(){
 
-    const spaces = data.map(( { name, address, images, likes, hours } ) => {
-        return (
-          <POPOSSpace
-            key={name} 
-            name={name}
-            address={address}
-            image={images[0]}
-            likes={likes}
-            hours={hours}
-          />
-        )
-      })
+  const spaces = data.map(({ name, address, images, hours, likes }, i) => {
+    return (
+      <POPOSSpace
+        id={i}
+        key={name}
+        name={name}
+        address={address}
+        image={images[0]}
+        hours={hours}
+        likes={likes}
+      />
+    )
+  })
 
     return(
         <div className="POPOSList">
