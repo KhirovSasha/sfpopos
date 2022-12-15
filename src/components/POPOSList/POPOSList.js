@@ -1,7 +1,7 @@
 import React from "react";
-import POPOSSpace from "./POPOSSpace";
+import POPOSSpace from "../POPOSSpace/POPOSSpace.js";
 import './POPOSList.css';
-import data from './data.json'
+import data from '../../data.json'
 
 
 function POPOSList(){

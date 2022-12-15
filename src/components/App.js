@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Title from './Title';
-import POPOSList from './POPOSList';
-import About from './About';
-import Footer from './Footer';
+import Title from './Title/Title.js';
+import POPOSList from './POPOSList/POPOSList.js';
+import About from './About/About.js';
+import Footer from './Footer/Footer.js';
+import POPOSDetails from './POPOSDetails/POPOSDetails.js'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
-import POPOSDetails from './POPOSDetails'
+
 
 
 function App() {
