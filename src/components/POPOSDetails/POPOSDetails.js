@@ -14,17 +14,15 @@ function POPOSDetails() {
 
   return (
     <div className='POPOSDetails'>
-       <div>
-        <img src={images[0]} width="300" height="300" alt={name}/>
+       <div className="POPOSDetails-image">
+        <img src={images[0]} alt={name}/>
       </div>
-
-      <div>
-        <h1>{ name }</h1>
-        
-        <p>{ desc }</p>
-        <p><strong>Time:</strong> { hours }</p>
-        <p><strong>Features:</strong> { features }</p>
-        <p><strong>Coordinate:</strong> { geo.lat } { geo.lon }</p>
+      <div className="POPOSDetails-info">
+        <h1 className="POPOSDetails-title">{ name }</h1>
+        <p className="POPOSDetails-desc">{ desc }</p>
+        <p className="POPOSDetails-hours"><strong>Time:</strong> { hours }</p>
+        <p className="POPOSDetails-features"><strong>Features:</strong> { features }</p>
+        <p className="POPOSDetails-geo"><strong>Coordinate:</strong> { geo.lat } { geo.lon }</p>
       </div>
 
     </div>
