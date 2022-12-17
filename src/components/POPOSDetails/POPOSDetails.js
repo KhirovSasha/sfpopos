@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import data from '../../data.json'
 import './POPOSDetails.css'
+import POPOSFeatureList from '../POPOSFeatures/POPOSFeatureList.js'
 
 
 function POPOSDetails() {
@@ -21,7 +22,7 @@ function POPOSDetails() {
         <h1 className="POPOSDetails-title">{ name }</h1>
         <p className="POPOSDetails-desc">{ desc }</p>
         <p className="POPOSDetails-hours"><strong>Time:</strong> { hours }</p>
-        <p className="POPOSDetails-features"><strong>Features:</strong> { features }</p>
+        <p className="POPOSDetails-features"><strong>Features:</strong> <POPOSFeatureList features={features}/></p>
         <p className="POPOSDetails-geo"><strong>Coordinate:</strong> { geo.lat } { geo.lon }</p>
       </div>
 
